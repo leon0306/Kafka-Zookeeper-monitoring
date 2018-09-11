@@ -1,0 +1,16 @@
+[Unit]
+Description=burrow - for monitorning kafka consumer status
+Documentation=https://github.com/linkedin/Burrow
+After=network-online.target
+Wants=network-online.target
+  
+[Service]
+Type=simple
+PIDFile=/opt/burrow/burrow.pid
+ExecStart=/opt/burrow/burrow --config-dir /opt/burrow/config
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+PrivateTmp=true
+  
+[Install]
+WantedBy=multi-user.target

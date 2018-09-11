@@ -1,0 +1,591 @@
+{"level":"info","ts":1536225761.6745522,"msg":"Started Burrow"}
+{"level":"info","ts":1536225761.6748455,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536225761.6749532,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536225761.67499,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536225761.6750844,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536225761.6751134,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536225761.6751573,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536225761.6752553,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536225761.6752775,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536225761.675303,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536225761.6754787,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536225761.6755254,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536225761.6758273,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536225761.6760252,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536225761.6764843,"msg":"Connected to 172.22.107.71:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536225761.6978552,"msg":"Authenticated: id=72156649653010436, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536225761.697905,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536225761.711916,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536225761.7119768,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536225761.712031,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536225761.712036,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536225761.7120466,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536225761.7121615,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536225761.7121718,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536225761.7121832,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536225761.712188,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536225761.7184134,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536225761.7184741,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536225761.7203002,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536225761.8146365,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536225779.692264,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536225779.6930027,"msg":"Connected to 172.22.107.73:2181","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536225779.6970375,"msg":"Authenticated: id=216369267529678849, timeout=30000","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536225779.6970785,"msg":"Re-submitting `0` credentials after reconnect","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536227759.0364187,"msg":"Started Burrow"}
+{"level":"info","ts":1536227759.0366294,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536227759.0367677,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536227759.03681,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536227759.0369062,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536227759.0369258,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536227759.0369735,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536227759.0370605,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536227759.0370784,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536227759.0371022,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536227759.0372875,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536227759.0373323,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536227759.037645,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536227759.0378246,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536227759.038302,"msg":"Connected to 172.22.107.72:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536227759.0447664,"msg":"Authenticated: id=144311609349570562, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536227759.0448322,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536227759.0642045,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536227759.064261,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536227759.0643122,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536227759.0643175,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536227759.0643256,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536227759.0644555,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536227759.0644681,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536227759.0644782,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536227759.0644832,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536227759.0710106,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536227759.071045,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536227759.0728312,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536227759.167659,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536227777.0443082,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536227777.0466003,"msg":"Connected to 172.22.107.74:2181","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536227777.0497925,"msg":"Authenticated: id=288426809489031169, timeout=30000","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536227777.0498452,"msg":"Re-submitting `0` credentials after reconnect","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536227909.4976037,"msg":"Started Burrow"}
+{"level":"info","ts":1536227909.4978707,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536227909.4979823,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536227909.4980178,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536227909.4981124,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536227909.4981322,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536227909.4981754,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536227909.498265,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536227909.4982822,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536227909.4983068,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536227909.4984925,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536227909.4985375,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536227909.498865,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536227909.499032,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536227909.4995055,"msg":"Connected to 172.22.107.73:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536227909.5144224,"msg":"Authenticated: id=216369267529678850, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536227909.514482,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536227909.5196798,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536227909.5197542,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536227909.519817,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536227909.5198228,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536227909.5198426,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536227909.520013,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536227909.5200324,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536227909.5200438,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536227909.5200522,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536227909.5266683,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536227909.5267344,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536227909.5286698,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536227909.622283,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536227925.9795876,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536227925.981065,"msg":"Connected to 172.22.107.75:2181","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536227925.999996,"msg":"Authenticated: id=360484404887945217, timeout=30000","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536227926.0000472,"msg":"Re-submitting `0` credentials after reconnect","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228005.6457386,"msg":"Started Burrow"}
+{"level":"info","ts":1536228005.64596,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228005.6460755,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536228005.646111,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536228005.6462066,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536228005.6462266,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536228005.6462693,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536228005.6463568,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228005.6463745,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536228005.6463985,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536228005.6465826,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536228005.6466284,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228005.6468785,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536228005.6471257,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228005.6476157,"msg":"Connected to 172.22.107.73:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228005.6706605,"msg":"Authenticated: id=216369267529678851, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228005.6707304,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228005.6746428,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536228005.6747231,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536228005.674782,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536228005.674787,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536228005.6747959,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536228005.6749294,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536228005.6749406,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228005.6749508,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536228005.674956,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536228005.6809468,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536228005.6809995,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228005.6824474,"msg":"Connected to 172.22.107.73:2181","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228005.7032313,"msg":"Authenticated: id=216369267529678852, timeout=30000","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228005.703287,"msg":"Re-submitting `0` credentials after reconnect","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228005.7037008,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536228005.7056422,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536228005.7769399,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228114.2281864,"msg":"Started Burrow"}
+{"level":"info","ts":1536228114.2284007,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228114.2285383,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536228114.2285767,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536228114.2286737,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536228114.2287111,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536228114.2287543,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536228114.2288423,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228114.2288592,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536228114.2288835,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536228114.2290728,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536228114.2291155,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536228114.2294304,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228114.2295892,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228114.2300498,"msg":"Connected to 172.22.107.71:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228114.2486415,"msg":"Authenticated: id=72156649653010437, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228114.2486854,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228114.255343,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536228114.255407,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536228114.2554789,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536228114.2554843,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536228114.2555106,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536228114.255667,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536228114.255689,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228114.255703,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536228114.2557082,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536228114.2612429,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536228114.261291,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536228114.2631,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536228114.3695352,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228241.914049,"msg":"Started Burrow"}
+{"level":"info","ts":1536228241.9142482,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228241.9143486,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536228241.9143856,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536228241.914479,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536228241.9145083,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536228241.9145617,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536228241.9146597,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228241.9146907,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536228241.91472,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536228241.9148967,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536228241.914942,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536228241.9152346,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228241.9154356,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228241.9159122,"msg":"Connected to 172.22.107.73:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228241.9190643,"msg":"Authenticated: id=216369267529678853, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228241.9191208,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228241.9479096,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536228241.9479716,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536228241.9480407,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536228241.948046,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536228241.9480577,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536228241.9481888,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536228241.9481993,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228241.9482095,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536228241.9482172,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536228241.9544797,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536228241.9545267,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536228241.956482,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536228242.0505192,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228258.4155428,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228258.415996,"msg":"Connected to 172.22.107.71:2181","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228258.4218757,"msg":"Authenticated: id=72156649653010438, timeout=30000","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228258.4219823,"msg":"Re-submitting `0` credentials after reconnect","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228284.3041513,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"info","ts":1536228286.7232256,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"info","ts":1536228387.9086256,"msg":"Started Burrow"}
+{"level":"info","ts":1536228387.9088612,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228387.90898,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536228387.9090152,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536228387.9091082,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536228387.909127,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536228387.9091687,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536228387.909254,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228387.9092698,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536228387.9092944,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536228387.9094763,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536228387.90952,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536228387.9098477,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228387.9100144,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228387.9105787,"msg":"Connected to 172.22.107.71:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228387.9255838,"msg":"Authenticated: id=72156649653010439, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228387.9256165,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228387.9355202,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536228387.9355862,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536228387.935644,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536228387.9356499,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536228387.935659,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536228387.9357955,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536228387.9358091,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228387.935824,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536228387.9358292,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536228387.9484913,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536228387.9485338,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536228387.9502532,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536228388.0378253,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"warn","ts":1536228388.6069179,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228388.6069949,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536228388.6079683,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228388.6080542,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"info","ts":1536228389.6586645,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536228389.6588135,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228389.6615481,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228389.661646,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228390.680537,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536228390.680665,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228390.6857615,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228390.6858695,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228391.7394705,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228391.7396104,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228391.7403286,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536228391.7404397,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228392.79539,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228392.7955391,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228392.8101685,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228392.8102953,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228393.862075,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228393.8621829,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228393.9061406,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536228393.9062886,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228394.4573648,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228394.4574926,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228394.4825509,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228394.4826393,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228395.1265416,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536228395.126682,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228395.6623335,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228395.662475,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228396.975185,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"info","ts":1536228396.975241,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228396.9753182,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228397.115637,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228397.1157248,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228398.144395,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228398.144535,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228399.2974534,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228399.297618,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228400.4443321,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228400.4444633,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228401.5439034,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228401.5440376,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228402.7161074,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228402.7162488,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228403.7712412,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536228403.771373,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228403.7723315,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228403.772438,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228404.4405475,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228404.4406672,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228404.9250486,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228404.9259484,"msg":"Connected to 172.22.107.74:2181","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228404.9294362,"msg":"Authenticated: id=288426809489031170, timeout=30000","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228404.929479,"msg":"Re-submitting `0` credentials after reconnect","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228405.8259141,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"info","ts":1536228405.8288407,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"info","ts":1536228406.9059422,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"info","ts":1536228407.207221,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228407.2073367,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228408.3868675,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"info","ts":1536228408.4229379,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536228408.4230688,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536228544.909629,"msg":"Started Burrow"}
+{"level":"info","ts":1536228544.9098325,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228544.909971,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536228544.9100077,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536228544.9101014,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536228544.91012,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536228544.9101608,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536228544.9102545,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228544.9102714,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536228544.910295,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536228544.910479,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536228544.9105232,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536228544.9108436,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228544.9110093,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228544.911541,"msg":"Connected to 172.22.107.73:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228544.9230423,"msg":"Authenticated: id=216369267529678854, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228544.9230783,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536228544.9252534,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536228544.9253354,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536228544.925716,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536228544.925759,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536228544.9257698,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536228544.9259067,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536228544.9259222,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536228544.9259348,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536228544.9259403,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536228544.9317372,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536228544.9317763,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228544.9327548,"msg":"Connected to 172.22.107.73:2181","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228544.9393258,"msg":"Authenticated: id=216369267529678855, timeout=30000","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228544.9393783,"msg":"Re-submitting `0` credentials after reconnect","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536228544.9399393,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536228544.941643,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536228545.028178,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536283088.2610145,"msg":"Started Burrow"}
+{"level":"info","ts":1536283088.2612402,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283088.2613585,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536283088.261402,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536283088.2614982,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536283088.2615178,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536283088.2615607,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536283088.2616584,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536283088.2616851,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536283088.2617152,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536283088.2619057,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536283088.2619517,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536283088.2622662,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536283088.262433,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283088.2629237,"msg":"Connected to 172.22.107.75:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283088.2696533,"msg":"Authenticated: id=360484404887945218, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283088.2697232,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283088.2904072,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536283088.2904756,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536283088.2905397,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536283088.2905452,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536283088.2905548,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536283088.290704,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536283088.2907197,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536283088.2907434,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536283088.29075,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536283088.296941,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536283088.2969906,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536283088.2988083,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536283088.393897,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536283103.4737053,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536283103.4750211,"msg":"Connected to 172.22.107.73:2181","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536283103.490967,"msg":"Authenticated: id=216369267529678856, timeout=30000","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536283103.491051,"msg":"Re-submitting `0` credentials after reconnect","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536283481.3256972,"msg":"Started Burrow"}
+{"level":"info","ts":1536283481.3259048,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283481.326022,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536283481.3260562,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536283481.326151,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536283481.3261707,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536283481.326213,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536283481.326311,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536283481.326328,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536283481.326352,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536283481.326536,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536283481.3265798,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536283481.3269055,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536283481.327076,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283481.327604,"msg":"Connected to 172.22.107.71:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283481.3343363,"msg":"Authenticated: id=72156649653010440, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283481.3343847,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283481.354705,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536283481.3547688,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536283481.3548267,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536283481.3548324,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536283481.3548434,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536283481.3549805,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536283481.3549905,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536283481.3550014,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536283481.3550067,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536283481.3617456,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536283481.3617876,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536283481.3635402,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536283481.4572883,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"warn","ts":1536283483.83051,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283483.8305852,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536283484.121467,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283484.121539,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"info","ts":1536283485.225624,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536283485.225753,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283486.3852775,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536283486.3853993,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283487.5105848,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536283487.5107348,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283488.604417,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536283488.6045582,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283490.1597192,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536283490.1598458,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283490.4938374,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536283490.4940045,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283491.386399,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536283491.386534,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283492.040912,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536283492.0410414,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283493.5097136,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":false}
+{"level":"warn","ts":1536283493.509856,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283496.9080555,"msg":"Started Burrow"}
+{"level":"info","ts":1536283496.9082813,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283496.9083931,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536283496.9084291,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536283496.9085205,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536283496.9085402,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536283496.9085822,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536283496.90867,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536283496.9086976,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536283496.9087257,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536283496.908915,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536283496.9089594,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536283496.9092774,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536283496.9094367,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283496.9099343,"msg":"Connected to 172.22.107.73:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283496.915503,"msg":"Authenticated: id=216369267529678857, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283496.9155536,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283496.93503,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536283496.935106,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536283496.9351814,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536283496.9351892,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536283496.9352138,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536283496.9353845,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536283496.9353995,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536283496.9354138,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536283496.9354208,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536283496.9411304,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536283496.9411836,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536283496.9428718,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"warn","ts":1536283497.8060036,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283497.8060985,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536283498.8574927,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283498.8575656,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"info","ts":1536283499.294669,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536283499.294815,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283500.7682064,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536283500.768336,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283500.8951948,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536283501.931587,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536283501.9317198,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283502.2946417,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536283502.294741,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283503.6960402,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536283503.6961644,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283504.8377051,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536283504.837836,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283505.0743194,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"sec-logstash","showall":true}
+{"level":"warn","ts":1536283505.0744572,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":2,"cluster":"docker","consumer":"sec-logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283506.062642,"msg":"cluster or consumer not found","type":"module","coordinator":"evaluator","class":"caching","name":"default","cluster":"docker","consumer":"logstash","showall":true}
+{"level":"warn","ts":1536283506.0627415,"msg":"unknown consumer","type":"module","coordinator":"storage","class":"inmemory","name":"default","worker":10,"cluster":"docker","consumer":"logstash","topic":"","partition":0,"topic_partition_count":0,"offset":0,"timestamp":0,"owner":"","request":"StorageFetchConsumer"}
+{"level":"info","ts":1536283960.6573882,"msg":"Started Burrow"}
+{"level":"info","ts":1536283960.6576211,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283960.6577485,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536283960.6577895,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536283960.6578844,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536283960.6579044,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536283960.6579468,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536283960.658034,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536283960.6580522,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536283960.658077,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536283960.658263,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536283960.6583085,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536283960.6585486,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536283960.6588175,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283960.6593356,"msg":"Connected to 172.22.107.73:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283960.6809833,"msg":"Authenticated: id=216369267529678858, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283960.6810498,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536283960.6870487,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536283960.687123,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536283960.6871915,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536283960.687198,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536283960.6872141,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536283960.6873808,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536283960.6873982,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536283960.6874146,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536283960.6874235,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536283960.693505,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536283960.69354,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536283960.6954145,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536283960.789697,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536284156.189288,"msg":"Started Burrow"}
+{"level":"info","ts":1536284156.1895058,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536284156.1895747,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536284156.1896024,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536284156.1896808,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536284156.189709,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536284156.189742,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536284156.189815,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536284156.189831,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536284156.1898487,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536284156.1899774,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536284156.1900122,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536284156.1902275,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536284156.1903656,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536284156.1907063,"msg":"Connected to 172.22.107.74:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536284156.2030962,"msg":"Authenticated: id=288426809489031171, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536284156.2031527,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536284156.2105048,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536284156.2105596,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536284156.210607,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536284156.2106123,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536284156.2106373,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536284156.2107835,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536284156.2107973,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536284156.2108114,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536284156.210816,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536284156.2170568,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536284156.217087,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536284156.2190497,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536284156.312973,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536284740.3927786,"msg":"Started Burrow"}
+{"level":"info","ts":1536284740.393,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536284740.3931131,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536284740.393161,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536284740.393255,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536284740.3932738,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536284740.3933163,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536284740.3934033,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536284740.3934193,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536284740.3934426,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536284740.393624,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536284740.3936682,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536284740.3939965,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536284740.3941667,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536284740.3946252,"msg":"Connected to 172.22.107.74:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536284740.4076235,"msg":"Authenticated: id=288426809489031172, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536284740.4077022,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536284740.4103398,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536284740.4103992,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536284740.4104564,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536284740.4104621,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536284740.410481,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536284740.410621,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536284740.4106321,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536284740.4106414,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536284740.4106462,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536284740.4164882,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536284740.416519,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536284740.4182,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536284740.5125554,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536285061.7465997,"msg":"Started Burrow"}
+{"level":"info","ts":1536285061.7467954,"msg":"configuring","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536285061.7468874,"msg":"configuring","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536285061.746921,"msg":"configuring","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536285061.747014,"msg":"configuring","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536285061.7470412,"msg":"configuring","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536285061.7470827,"msg":"configuring","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536285061.7471693,"msg":"configuring","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536285061.7471895,"msg":"configuring","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536285061.7472308,"msg":"configuring","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536285061.7474048,"msg":"configuring","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536285061.7474508,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536285061.747659,"msg":"configuring","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536285061.7479358,"msg":"starting","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536285061.7484703,"msg":"Connected to 172.22.107.72:2181","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536285061.7594054,"msg":"Authenticated: id=144311609349570563, timeout=6000","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536285061.759448,"msg":"Re-submitting `0` credentials after reconnect","type":"coordinator","name":"zookeeper"}
+{"level":"info","ts":1536285061.7886274,"msg":"starting","type":"coordinator","name":"storage"}
+{"level":"info","ts":1536285061.788717,"msg":"starting","type":"module","coordinator":"storage","class":"inmemory","name":"default"}
+{"level":"info","ts":1536285061.7887833,"msg":"starting","type":"coordinator","name":"evaluator"}
+{"level":"info","ts":1536285061.7887897,"msg":"starting","type":"module","coordinator":"evaluator","class":"caching","name":"default"}
+{"level":"info","ts":1536285061.7887979,"msg":"starting","type":"coordinator","name":"httpserver"}
+{"level":"info","ts":1536285061.78894,"msg":"started listener","type":"coordinator","name":"httpserver","listener":"[::]:1199"}
+{"level":"info","ts":1536285061.7889512,"msg":"starting","type":"coordinator","name":"notifier"}
+{"level":"info","ts":1536285061.788961,"msg":"starting","type":"coordinator","name":"cluster"}
+{"level":"info","ts":1536285061.788966,"msg":"starting","type":"module","coordinator":"cluster","class":"kafka","name":"docker"}
+{"level":"info","ts":1536285061.795159,"msg":"starting","type":"coordinator","name":"consumer"}
+{"level":"info","ts":1536285061.7951994,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536285061.7963586,"msg":"Connected to 172.22.107.73:2181","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536285061.7992902,"msg":"Authenticated: id=216369267529678859, timeout=30000","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536285061.7993228,"msg":"Re-submitting `0` credentials after reconnect","type":"module","coordinator":"consumer","class":"kafka_zk","name":"local_zk"}
+{"level":"info","ts":1536285061.7997966,"msg":"starting","type":"module","coordinator":"consumer","class":"kafka","name":"local"}
+{"level":"info","ts":1536285061.8014884,"msg":"starting consumers","type":"module","coordinator":"consumer","class":"kafka","name":"local","topic":"__consumer_offsets","count":50}
+{"level":"info","ts":1536285061.8910098,"msg":"starting evaluations","type":"coordinator","name":"notifier"}
