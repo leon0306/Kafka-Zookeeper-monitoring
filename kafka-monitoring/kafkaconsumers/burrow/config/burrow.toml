@@ -21,12 +21,12 @@ kafka-version="1.0.0"
 sasl="sasl_kafka"
 
 [sasl.sasl_kafka]
-username="kafka"
-password="pneekcpt"
+username="username"
+password="passwd"
 handshake-first=true
 
-[cluster.docker]
-class-name="kafka"
+[cluster.kafka_cluster]
+class-name="kafka_cluster"
 servers=[ "172.22.107.73:9092", "172.22.107.74:9092", "172.22.107.75:9092" ]
 client-profile="kafka_monitor"
 topic-refresh=120
@@ -34,7 +34,7 @@ offset-refresh=30
 
 [consumer.local]
 class-name="kafka"
-cluster="docker"
+cluster="kafka_cluster"
 servers=[ "172.22.107.73:9092", "172.22.107.74:9092", "172.22.107.75:9092" ]
 client-profile="kafka_monitor"
 group-blacklist="^(console-consumer-|python-kafka-consumer-|quick-).*$"
@@ -42,7 +42,7 @@ group-whitelist=""
 
 [consumer.local_zk]
 class-name="kafka_zk"
-cluster="docker"
+cluster="kafka_cluster"
 servers=[ "172.22.107.71:2181", "172.22.107.72:2181", "172.22.107.73:2181", "172.22.107.74:2181", "172.22.107.75:2181" ]
 zookeeper-timeout=30
 group-blacklist="^(console-consumer-|python-kafka-consumer-|quick-).*$"
