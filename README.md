@@ -1,8 +1,6 @@
 # Kafka-Zookeeper-monitoring-by-zabbix
 
-# Kafka-monitoring
-
-## First you have to install zabbix-java-gataway
+### First you have to install zabbix-java-gataway
     yum install -y zabbix-java-gataway
 ### Configuring zabbix-java-gataway
     mcedit /etc/zabbix/zabbix_java_gateway.conf
@@ -17,13 +15,15 @@
      chkconfig --level 345 zabbix-java-gataway on
 ### Start zabbix-java-gataway
     /etc/init.d/zabbix-java-gataway start
-## Configuring monitoring broker
+# Configuring monitoring broker
     cp jmx_discovery /etc/zabbix/externalscripts  
     cp JMXDiscovery-0.0.1.jar /etc/zabbix/externalscripts  ## On zabbix server not client.
+    chmod a+x jmx_discovery
 + Download template [zbx_kafka_templates.xml] and upload to zabbix
 
-## Configuring monitoring consumer
+# Configuring monitoring consumer
      cp kafka_consumers.sh /etc/zabbix/
+     chmod a+x kafka_consumers.sh
      cp userparameter_kafkaconsumer.conf /etc/zabbix/zabbix_agentd.d
 + Download template [zbx_kafka_consumer_templates.xml],[zbx_valuemaps_kafkaconsumers.xml] and upload to zabbix
 ### Install burrow
@@ -40,5 +40,6 @@
 # Zookeeper-monitoring
     cd Kafka-Zookeeper-monitoring/zookeeper-monitoring
     cp zookeeper.sh /etc/zabbix/scripts  ## You should edit env in scripts on you own
+    chmod a+x zookeeper.sh
     cp userparameter_zookeeper.conf /etc/zabbix/zabbix_agentd.d
 + Download template [zbx_zookeeper_templates.xml] and upload to zabbix
