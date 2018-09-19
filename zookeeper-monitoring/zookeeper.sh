@@ -31,7 +31,7 @@ function zk_open_file_descriptor_count {
 }
 
 function alive {
-PID=`/usr/bin/ps -ef|grep java|grep zookeeper|grep -v grep |awk '{print $2}' |head -n 1`
+PID=`/usr/bin/ps -ef|grep java|grep "org.apache.zookeeper.server.quorum.QuorumPeerMain" |grep -v grep |awk '{print $2}'`
 
 if [ -n "${PID}"  ]
 then
