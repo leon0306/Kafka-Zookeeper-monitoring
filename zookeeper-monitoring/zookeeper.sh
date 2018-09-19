@@ -31,7 +31,14 @@ function zk_open_file_descriptor_count {
 }
 
 function alive {
-/usr/bin/ps -ef|grep java|grep zookeeper|grep -v grep |awk '{print $2}' |head -n 1
+PID=`/usr/bin/ps -ef|grep java|grep zookeeper|grep -v grep |awk '{print $2}' |head -n 1`
+
+if [ -n "${PID}"  ]
+then
+	echo "${PID}"
+else
+	echo "0"
+fi
 }
 
 function zk_server_ruok {
